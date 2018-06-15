@@ -1,5 +1,12 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 
+/**
+ * Theme overrides for Material UI's components.
+ * [More Info]{@link https://material-ui.com/customization/default-theme/#default-theme}
+ *
+ * Colors, fonts are taken from
+ * [www.walmartbrandcenter.com]{@link https://www.walmartbrandcenter.com/our-core-identity.aspx}
+ */
 const theme = createMuiTheme({
   palette: {
     primary: {

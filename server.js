@@ -22,7 +22,7 @@ app.use(
     return {
       schema,
       context: {
-        apiKey: 'ek56xf8m8jspxpzrfhzt5k5x',
+        apiKey: process.env.API_KEY,
         api: 'http://api.walmartlabs.com/v1/'
       }
     }
